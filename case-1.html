@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/normalize.css">
+
+    <style>
+        body{
+            overflow: hidden;
+        }
+
+
+        #main{
+
+        }
+
+        #div1{
+            width: 50%;
+            height: 50%;
+
+            background-color: red;
+
+            position: absolute;
+
+        }
+        #div2{
+            width: 50%;
+            height: 50%;
+
+            background-color: orange;
+
+            position: absolute;
+
+            top: 50%;
+
+        }
+
+        #div3{
+            width: 50%;
+            height: 50%;
+
+            background-color: green;
+
+            position: absolute;
+
+            left:50%;
+        }
+
+        #div4{
+            width: 50%;
+            height: 50%;
+
+            background-color: hotpink;
+
+            position: absolute;
+
+            top: 50%;
+            right: 0;
+
+        }
+
+        #divSquare{
+
+            width: 150px;
+            aspect-ratio: 1/1;
+            background-color: white;
+
+            position: absolute;
+
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        #divCircleMiddle{
+            width: 100px;
+            aspect-ratio: 1/1;
+            border: black;
+            border-radius: 100px;
+            background-color: red;
+
+            position: absolute;
+
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        #divCircle1{
+            width: 150px;
+            aspect-ratio: 1/1;
+            border: black;
+            border-radius: 100px;
+            background-color: white;
+
+            position: absolute;
+
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+        #divSquare1{
+            width: 50px;
+            aspect-ratio: 1/1;
+            border: black;
+
+            background-color: red;
+
+            position: absolute;
+
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        #divCircle2{
+            width: 150px;
+            aspect-ratio: 1/1;
+            border: black;
+            border-radius: 100px;
+            background-color: white;
+
+            position: absolute;
+
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        #divSquare2{
+            width: 50px;
+            aspect-ratio: 1/1;
+            border: black;
+
+            background-color: red;
+
+            position: absolute;
+
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        #divCircle3{
+            width: 150px;
+            aspect-ratio: 1/1;
+            border: black;
+            border-radius: 100px;
+            background-color: white;
+
+            position: absolute;
+
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        #divSquare3{
+            width: 50px;
+            aspect-ratio: 1/1;
+            border: black;
+
+            background-color: red;
+
+            position: absolute;
+
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        #divCircle4{
+            width: 150px;
+            aspect-ratio: 1/1;
+            border: black;
+            border-radius: 100px;
+            background-color: white;
+
+            position: absolute;
+
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        #divSquare4{
+            width: 50px;
+            aspect-ratio: 1/1;
+            border: black;
+
+            background-color: red;
+
+            position: absolute;
+
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        #divLeftTopCircle{
+            width: 200px;
+            aspect-ratio: 1/1;
+            border: black;
+            border-radius: 100px;
+            background-color: white;
+
+            overflow: hidden;
+            position: absolute;
+
+            top: -100px;
+            left: -100px;
+            margin: auto;
+        }
+
+        #divRightTopCircle{
+            width: 200px;
+            aspect-ratio: 1/1;
+            border: black;
+            border-radius: 100px;
+            background-color: white;
+
+            overflow: hidden;
+            position: absolute;
+
+            top: -100px;
+            right: -100px;
+            margin: auto;
+        }
+
+        #divLeftBottomCircle{
+            width: 200px;
+            aspect-ratio: 1/1;
+            border: black;
+            border-radius: 100px;
+            background-color: white;
+
+            overflow: hidden;
+            position: absolute;
+
+            bottom: -100px;
+            left: -100px;
+            margin: auto;
+        }
+
+        #divRightBottomCircle{
+            width: 200px;
+            aspect-ratio: 1/1;
+            border: black;
+            border-radius: 100px;
+            background-color: white;
+
+            overflow: hidden;
+            position: absolute;
+
+            bottom: -100px;
+            right: -100px;
+            margin: auto;
+        }
+
+        #topMiddleCircle{
+            width: 180px;
+            aspect-ratio: 1/1;
+            border: black;
+            border-radius: 100px;
+            background-color: white;
+
+            overflow: hidden;
+            position: absolute;
+
+            top: -90px;
+            left: 0;
+            right: 0;
+
+            margin: auto;
+        }
+
+        #bottomMiddleCircle{
+            width: 180px;
+            aspect-ratio: 1/1;
+            border: black;
+            border-radius: 100px;
+            background-color: white;
+
+            overflow: hidden;
+            position: absolute;
+
+            bottom: -90px;
+            left: 0;
+            right: 0;
+
+            margin: auto;
+        }
+    </style>
+
+
+</head>
+<body>
+<div id="main">
+
+    <div id="div1">
+        <div id =divLeftTopCircle></div>
+        <div id="divCircle1">
+            <div id="divSquare1"></div>
+        </div>
+    </div>
+
+
+    <div id="div2">
+        <div id =divLeftBottomCircle></div>
+        <div id="divCircle2">
+            <div id="divSquare2"></div>
+        </div>
+    </div>
+
+
+
+    <div id="div3">
+        <div id =divRightTopCircle></div>
+        <div id="divCircle3">
+            <div id="divSquare3"></div>
+        </div>
+    </div>
+
+
+    <div id="div4">
+        <div id =divRightBottomCircle></div>
+        <div id="divCircle4">
+            <div id="divSquare4"></div>
+        </div>
+    </div>
+
+
+
+    <div id="divSquare"></div>
+
+    <div id="divCircleMiddle"></div>
+
+    <div id="topMiddleCircle"></div>
+
+    <div id="bottomMiddleCircle"></div>
+
+</div>
+</body>
+</html>
